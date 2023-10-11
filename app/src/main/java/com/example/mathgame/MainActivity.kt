@@ -26,6 +26,16 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+        subtraction.setOnClickListener {
+            val intent = Intent(this@MainActivity,SubActivity::class.java)
+            startActivity(intent)
+
+        }
+        multiplication.setOnClickListener {
+            val intent = Intent(this@MainActivity,MultiActivity::class.java)
+            startActivity(intent)
+
+        }
 
 
 
